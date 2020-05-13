@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import Brand from "./Brand"
 import BurgerMenu from "./BurgerMenu"
 import CollapseMenu from "./CollapseMenu"
+import { SocialNav } from "./SocialNav"
 
 const Navbar = props => {
   //   const barAnimation = useSpring({
@@ -30,6 +31,7 @@ const Navbar = props => {
             <Link to="/blog/">Blog</Link>
             <Link to="/identity/">Identity</Link>
           </NavLinks>
+          <SocialNav />
           <BurgerWrapper>
             <BurgerMenu
               navbarState={props.navbarState}
@@ -88,7 +90,7 @@ const NavLinks = styled(animated.ul)`
       box-shadow: 0 1px #000e24;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       display: none;
     }
   }
@@ -97,7 +99,7 @@ const NavLinks = styled(animated.ul)`
 const BurgerWrapper = styled.div`
   margin: auto 0;
 
-  @media (min-width: 769px) {
+  @media (min-width: 992px) {
     display: none;
   }
 `

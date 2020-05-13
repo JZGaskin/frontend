@@ -15,11 +15,11 @@ class NavApp extends Component {
   render() {
     return (
       <>
+        <GlobalStyle />
         <Navbar
           navbarState={this.state.navbarOpen}
           handleNavbar={this.handleNavbar}
         />
-        <GlobalStyle />
       </>
     )
   }

@@ -39,6 +39,11 @@ const CollapseMenu = props => {
               Identity
             </Link>
           </li>
+          <li>
+            <Link to="/social/" onClick={props.handleNavbar}>
+              Social
+            </Link>
+          </li>
         </NavLinks>
       </CollapseWrapper>
     )
@@ -55,6 +60,10 @@ const CollapseWrapper = styled(animated.div)`
   left: 0;
   right: 0;
   z-index: 2;
+
+  @media (min-width: 992px) {
+    display: none;
+  }
 `
 
 const NavLinks = styled.ul`

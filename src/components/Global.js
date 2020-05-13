@@ -5,18 +5,12 @@ const GlobalStyles = createGlobalStyle`
   @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 :root {
   --clr-primary: #2f2825;
-  --clr-primary-dark: hsl(205, 100%, 21%);
-  --clr-primary-light: hsl(205, 84%, 74%);
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-5: hsl(209, 22%, 49%);
-  --clr-grey-9: hsl(210, 32%, 93%);
-  --clr-grey-10: hsl(206, 33%, 96%);
+  --clr-primary-dark: #143f56;
+  --clr-primary-light: #24739d;
   --clr-white: #fff;
-  --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
-  /* --transition: all 0.3s linear; */
+  --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
   --fixed-width: 620px;
