@@ -14,7 +14,15 @@ const Brand = () => {
 export default Brand
 
 const Image = styled.img`
+  width: 250px;
   height: auto;
   margin: auto;
   padding-top: 3.5%;
+
+  @media (max-width: 992px) {
+    width: 175px;
+    height: auto;
+    margin: auto;
+    padding-top: 10%;
+  }
 `

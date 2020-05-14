@@ -96,6 +96,8 @@ p {
 ul {
   list-style-type: none;
 }
+
+
 .btn {
   text-transform: uppercase;
   letter-spacing: var(--spacing);

@@ -60,11 +60,15 @@ export const SocialNav = () => {
 
 const Social = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  line-height: 0;
-  padding-top: 1.5%;
+  /* flex-wrap: wrap; */
+  /* line-height: 0; */
+  padding-top: 1%;
   font-size: 2rem;
   margin-left: 1rem;
+
+  &.footerwhite {
+    flex-direction: column;
+  }
 
   @media (max-width: 992px) {
     display: none;
