@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
 
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
 :root {
   --clr-primary: #2f2825;
   --clr-primary-dark: #143f56;
@@ -10,6 +10,7 @@ const GlobalStyles = createGlobalStyle`
   --clr-white: #fff;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
+  --ff-slogan: 'BioRhyme', serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -27,7 +28,6 @@ html {
     font-size: 80%;
   }
 body {
-  font-family: "Open Sans", sans-serif;
   background: #edeae9;
   color: var(--clr-grey-1);
   line-height: 1.8;
