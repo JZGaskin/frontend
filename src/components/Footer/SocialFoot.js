@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa"
 import styled from "styled-components"
 
-export const SocialNav = () => {
+const SocialFoot = () => {
   return (
     <Social>
       <Github
@@ -58,6 +58,8 @@ export const SocialNav = () => {
   )
 }
 
+export default SocialFoot
+
 const Social = styled.div`
   display: flex;
   /* flex-wrap: wrap; */
@@ -72,7 +74,7 @@ const Social = styled.div`
 `
 
 const Github = styled.a`
-  color: #211f1f;
+  color: #fff;
   transition: var(--transition);
   cursor: pointer;
   margin-right: 1rem;

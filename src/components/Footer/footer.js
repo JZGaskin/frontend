@@ -1,15 +1,15 @@
 import React from "react"
 import styled from "styled-components"
-import logo from "../images/white-jzglogo1.svg"
-import { SocialNav } from "../Navbar/SocialNav"
+import logo from "../../images/white-jzglogo1.svg"
+import SocialFoot from "../Footer/SocialFoot"
 
 const Footer = () => {
   return (
     <FooterWrap>
       <Image src={logo} alt="Company Logo"></Image>
-      <SocialFoot>
-        <SocialNav />
-      </SocialFoot>
+      <SocialFooter>
+        <SocialFoot />
+      </SocialFooter>
       <Copyright>
         © {new Date().getFullYear()} JZ Gaskin. All rights reserved.
       </Copyright>
@@ -42,7 +42,7 @@ const Image = styled.img`
     padding-top: 3%;
   }
 `
-const SocialFoot = styled.div`
+const SocialFooter = styled.div`
   /* display: flex; */
   margin: auto;
   /* justify-content: space-between; */
