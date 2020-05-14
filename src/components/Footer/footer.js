@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import logo from "../../images/white-jzglogo1.svg"
-import SocialFoot from "../Footer/SocialFoot"
+import SocialFoot from "./socialFoot"
 
 const Footer = () => {
   return (
