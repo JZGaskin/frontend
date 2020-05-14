@@ -11,7 +11,7 @@ const Footer = () => {
         <SocialFoot />
       </SocialFooter>
       <Copyright>
-        © {new Date().getFullYear()} JZ Gaskin. All rights reserved.
+        © {new Date().getFullYear()} JZ Gaskin. All rights reserved
       </Copyright>
     </FooterWrap>
   )
