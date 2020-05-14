@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa"
 import styled from "styled-components"
 
-const socialfoot = () => {
+const SocialFoot = () => {
   return (
     <Social>
       <Github
@@ -58,7 +58,7 @@ const socialfoot = () => {
   )
 }
 
-export default socialfoot
+export default SocialFoot
 
 const Social = styled.div`
   display: flex;
