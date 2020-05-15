@@ -22,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
   *::before {
     margin: 0px;
     padding: 0px;
-    box-sizing: inherit;
+    box-sizing: border-box;
   }
 html {
     font-size: 80%;
@@ -48,7 +48,7 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-  font-family: var(--ff-primary);
+  font-family: var(--ff-slogan);
 }
 h1 {
   font-size: 1.7rem;

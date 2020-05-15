@@ -4,7 +4,7 @@ import HomeBanner from "../components/Home/Banner"
 
 const IndexPage = () => (
   <Layout>
-    <HomeBanner></HomeBanner>
+    <HomeBanner />
   </Layout>
 )
 
