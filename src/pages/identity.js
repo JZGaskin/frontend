@@ -14,37 +14,43 @@ export default ({ data }) => (
           <Img fixed={data.file.childImageSharp.fixed} />
         </Bioimage>
         <Bio>
-          <Biohead>Bio</Biohead>
-          <p>
+          <Biohead>Bio - Who am I?</Biohead>
+          {/* <p>
             Hello, I'm JZ Gaskin. I am many things and all of them are pretty
             tech-nerdy. I've found that I enjoy working on complicated projects
             that also can become useful tools. I've had a career as a scientist
             and now I'm looking to do something creative that I enjoy.
             Personally, my motto is "better every day". I try to take that
             philosophy with me in everything I do.
+          </p> */}
+          <p>
+            The better question is, how do I engage life? Who I am is an ongoing
+            process becasue I believe in learning and growth. Programming and
+            web development is an extention of who I am becasue its an ever
+            changing field that I find intriguing. The persona you see is an
+            aspect of my ethos and my creative outlet. My motivation and drive
+            is to get better everyday.
           </p>
         </Bio>
         <Job1>
           <Jobhead>GFI Laboratory</Jobhead>
-          <h4>Web Dev Survivalist</h4>
+          <h4>Tech Entreprenuer</h4>
           <p>
-            My first start-up company. I was a one man show for a while and
-            developed entire systems that are still in use today. During this
-            time I developed an app that performs complex statistical equations
-            and dumps them out to a Microsoft Word file. I also developed the
-            company's e-commerce website. This was the main sales channel for
-            several years.
+            I developed entire systems that are still in use today. Apps
+            included complex statistical calclations using the Visual Basic
+            language and a Lab Info Management System for tracking samples. I
+            developed the company's e-commerce website, managed SEO and online
+            advertising.
           </p>
         </Job1>
         <Job2>
-          <Jobhead>SLEF Youth Football</Jobhead>
-          <h4>Past President & Tech Guy</h4>
+          <Jobhead>Little Eagle Football</Jobhead>
+          <h4>President & Tech Guy</h4>
           <p>
-            I spent 4 years coaching youth football and governing this
-            non-profit. I developed and managed the website and facebook page.
-            The website includes a registration form that accepts payments and
-            links to a google sheet and a text group feature that helps the
-            organizaton communicate effectively.
+            I spent 4 years coaching football and governing this non-profit and
+            continue their website management. Elements of the website include a
+            custom e-commerce registration form for participants, easy data to
+            the organizers and a text group feature for effective communication.
           </p>
         </Job2>
         <Job3>
@@ -54,7 +60,8 @@ export default ({ data }) => (
             My current start-up and creative outlet. This company is all things
             web and my job is to create and create and create... I am proficient
             in several programming languages but, more importantly, I know how
-            to assemble projects into useful things.
+            to assemble projects into useful things. This project encapsulates
+            my broad experience in progress.
           </p>
         </Job3>
       </Gridtainer>
@@ -135,6 +142,7 @@ const Job3 = styled.div`
   padding: 1.5rem;
   border-bottom: var(--clr-primary-dark) 5px solid;
 `
-const Jobhead = styled.h3`
+const Jobhead = styled.h4`
   color: var(--clr-primary-dark);
+  font-size: 20px;
 `
